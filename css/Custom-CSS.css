@@ -1,0 +1,84 @@
+.my-header-position {
+    position: absolute;
+    z-index: 3;
+    left: 35px;
+    right: 35px;
+    top: 10px;
+}
+
+.scrn-position {
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    top: 90px;
+}
+
+.my-btn-position {
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    left: 35px;
+}
+
+html, body {
+    height: 10%;
+}
+
+.my-list {
+    text-align: right;
+    margin-bottom: auto;
+    font-size: x-large;
+}
+
+.my-heading-left {
+    font-size: large;
+    font-weight: 500;
+    position: absolute;
+    top: 18px;
+    font-family: 'Times New Roman';
+}
+
+.font-oblique {
+    font-style: oblique;
+}
+
+.my-list-bg {
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.my-btn-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.menu-btn-align {
+    position: relative;
+    margin: 600px -405px;
+    left: 12.5%;
+}
+
+.home-btn-align {
+    position: absolute;
+    z-index: 3;
+    bottom: 30px;
+}
+
+.myClass {
+    display: none;
+}
+
+.modalPic {
+    border-radius: 4%;
+}
+
+.homeCntr {
+    margin: 0 auto;
+    float: none;
+}
+
+.menuCntr {
+    
+    margin: 0 auto;
+    float: none;
+}
