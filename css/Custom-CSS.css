@@ -77,8 +77,17 @@ html, body {
     float: none;
 }
 
-.menuCntr {
-    
+.menuCntr {    
     margin: 0 auto;
     float: none;
+}
+
+.homeBg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #6d056d;
+}
+.menuBg{
+    margin-top: 15px;
+    background-color: #390e0e;
 }

@@ -1,38 +1,41 @@
 ﻿<!DOCTYPE html>
 <html>
 
-<head>    
+<head>
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/my-jquery.js"></script>
-    
+
 
     <link rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" media="screen" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" media="screen" href="css/Custom-CSS.css" />
-    
+
     <title>Asmaul-Husna</title>
     <meta name="viewport" http-equiv="Content-Type" content="text/html;charset=UTF-8, width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <!--Home Screen-->
-    <div id="homeDiv" class="container col-xs-5 col-sm-5 col-md-5 col-lg-5 homeCntr">
+    
+    <div id="homeDiv" class="homeBg">
+        <!--Home Screen-->
+        <div  class="container col-xs-5 col-sm-5 col-md-5 col-lg-4 homeCntr ">
 
-        <!--Image-->
-        <img class="img-responsive" src="images/asmaul-husna-the-beautiful-names-of-god-mamoun-sakkal.jpg" alt="MainPic" />
+            <!--Image-->
+            <img class="img-responsive" style="z-index: 4" src="images/asmaul-husna-the-beautiful-names-of-god-mamoun-sakkal.jpg" alt="MainPic" />
 
+            <!--Button-->
+            <div class="container  home-btn-align col-md-5 col-md-push-4 col-md-offset-1">
+                <button id="homeBtn" type="button" class=" btn btn-default my-btn-circle">
+                    <span class="glyphicon glyphicon-th-list"></span>
+                </button>
+            </div>
 
-        <!--Button-->
-        <div class="container  home-btn-align col-md-5 col-md-push-4 col-md-offset-1">
-            <button id="homeBtn" type="button" class=" btn btn-default my-btn-circle">
-                <span class="glyphicon glyphicon-th-list"></span>
-            </button>
         </div>
-
     </div>
 
+    <div  class="menuBg">
     <!--Menu Screen-->
     <div id="menuDiv" class="container col-sm-10 col-md-10 menuCntr myClass">
 
@@ -2204,6 +2207,6 @@
         </div>
 
     </div>
-
+    </div>
 </body>
 </html>
